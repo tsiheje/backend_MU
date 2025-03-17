@@ -11,7 +11,7 @@ app.use(express.json());
 
 // app.use(corsOptions);
 
-// app.use('/api', routes);
+app.use('/api', routes);
 
 // app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 

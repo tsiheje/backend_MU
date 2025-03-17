@@ -3,8 +3,8 @@ require("dotenv").config();
 module.exports = {
   development: {
     username: process.env.DB_USERNAME || "root",
-    password: process.env.DB_PASSWORD || "mickaelio",
-    database: process.env.DB_DATABASE || "eventapp_base",
+    password: process.env.DB_PASSWORD || "lanja",
+    database: process.env.DB_DATABASE || "mobilite_urbaine",
     host: process.env.DB_HOST || "localhost",
     dialect: "postgresql",
   },
